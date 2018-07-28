@@ -1,0 +1,35 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+#flotanteCliente {
+ z-index: 999;
+ border: 8px solid #fff;
+  margin-top: -756px;
+	margin-left: -153px;
+	top: 40%; left: 35%;
+	padding: 10px;
+	position: fixed;
+	 background-color: #fff;
+	 border-radius: 3px;
+	 width: 60%;
+	 height:380px;
+
+}
+#example1_filter{
+    width: 100%;
+}
+div.dataTables_filter label {
+    width: 400px;
+    display: block;
+}
+div.dataTables_filter label input {
+    margin-left: 10px;
+    width: 300px;
+}

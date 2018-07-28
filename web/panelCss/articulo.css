@@ -1,0 +1,58 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*es para todo el titulo*/
+.titleArticulo{
+display: block;
+width: 100%;
+height: 40px;
+background: #8B0000;
+text-align: center;
+padding: 10px;
+font-size: 15px;
+color:#fff;
+margin: 0px;
+
+
+}
+.buttons-colvis,.buttons-pdf,.buttons-print,.buttons-excel{
+	background:#007bff;
+	border-color: #007bff;
+}
+.buttons-colvis span,.buttons-pdf span,.buttons-print span,.buttons-excel span{
+	color: blue;
+
+}
+.dataTables_filter{
+	width: 30%;
+	float: left;
+	height: 60px;
+}
+
+.dt-buttons{
+	width: 70%;
+	float: left;
+	height: 60px;
+}
+/* estilo de marca flotante */
+#fondo {
+width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 990;opacity: 0.8;background:#000;
+}
+#flotanteM{
+ z-index: 999;
+ border: 8px solid #fff;
+  margin-top: -756px;
+	margin-left: -153px;
+	top: 40%; left: 35%;
+	padding: 10px;
+	position: fixed;
+	 background-color: #fff;
+	 border-radius: 3px;
+	 width: 60%;
+	 height:500px;
+
+}
